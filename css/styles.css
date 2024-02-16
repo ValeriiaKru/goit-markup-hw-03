@@ -45,30 +45,14 @@ ul {
     margin-right: auto;
 }
 
-.page-header {
-   
-    
-}
-
 .page-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.menu {
-    display: flex;
-    column-gap: 40px;
-}
-
-.menu-item {
-    display: flex;
-}
-
-
-
 .logo {
-font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -80,7 +64,16 @@ font-family: "Raleway", sans-serif;
 }
 
 .text-blue {
-color: #2e2f42;
+    color: #2e2f42;
+}
+
+.menu {
+    display: flex;
+    column-gap: 40px;
+}
+
+.menu-item {
+    display: flex;
 }
 
 .menu-link {
@@ -119,6 +112,13 @@ color: #2e2f42;
     color: #404bbf;
 }
 
+
+
+
+
+
+
+
 .service-btn {
     font-weight: 500;
     font-size: 16px;
@@ -127,6 +127,21 @@ color: #2e2f42;
     color: #fff;
     background: #4d5ae5;
 
+}
+.my-main-page {
+    background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 292px;
+}
+
+.main-page {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+    background: #2e2f42;
 }
 
 .service-btn:hover,
@@ -139,27 +154,16 @@ color: #2e2f42;
     background:#404bbf;
 }
 
+
+
+
+
+
+
+
 .page-studio {
 padding-top: 120px;
 padding-bottom: 120px;
-}
-
-
-.my-main-page {
-    background-color:#2e2f42;
-    padding-top: 188px;
-        padding-bottom: 292px;
-}
-
-.main-page {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #ffffff;
-    background: #2e2f42;
-
 }
 
 .first-page {
@@ -174,6 +178,12 @@ padding-bottom: 120px;
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+
+
+
+
+
+
 
 .our-team-page {
     background-color: #F4F4FD;
@@ -211,6 +221,12 @@ padding-bottom: 120px;
         background-color: #FFFFFF;
 }
 
+
+
+
+
+
+
 .our-portfolio {
         font-size: 36px;
         line-height: 1.11;
@@ -241,6 +257,11 @@ padding-bottom: 120px;
 .info-portfolio {
     background-color: #FFFFFF;
 }
+
+
+
+
+
 
 .logo-footer {
     font-family: "Raleway", sans-serif;
