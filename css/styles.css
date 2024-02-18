@@ -306,10 +306,6 @@ width: calc((100% - 72px) / 4);
 
 
 
-.container-our-portfolio {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-}
 
 .our-container {
     padding: 120px 0;
@@ -318,18 +314,15 @@ width: calc((100% - 72px) / 4);
 .list-portfolio {
     display: flex;
     gap: 24px;
+    row-gap: 48px;
+    flex-wrap: wrap;
 }
 
 .our-portfolio {
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-        text-align: center;
-        color: #2e2f42;
-        padding-top: 120px;
-        padding-bottom: 120px;
-
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 72px;
 }
 
 .name-service {
@@ -338,7 +331,7 @@ width: calc((100% - 72px) / 4);
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
 }
 
 .service-type {
@@ -346,13 +339,13 @@ width: calc((100% - 72px) / 4);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    
 }
 
 .info-portfolio {
     flex-direction: column;
     width: calc((100% - 48px) / 3);
-    background-color: #FFFFFF;
-    row-gap: 48px;
+    
 }
 
 .portfolio-name {
