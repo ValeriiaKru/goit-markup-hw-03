@@ -298,11 +298,6 @@ width: calc((100% - 72px) / 4);
         background-color: #FFFFFF;
         text-align: center;
 }
-
-.list-team {
-    display: flex;
-    gap: 24px;
-}
  
 .our-team-description {
     
@@ -315,6 +310,10 @@ width: calc((100% - 72px) / 4);
     padding: 32px 0;
 }
 
+.team-list {
+    display: flex;
+    gap: 24px;
+}
 
 
 
