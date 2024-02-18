@@ -54,11 +54,11 @@ img {
 .header-container {
    display: flex; 
    align-items: center;
+    justify-content: space-between;
 }
 
 .page-nav {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -95,8 +95,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 24px 0;
-    padding-bottom: 24px 0;
+    padding: 24px 0;
 }
 
 .menu-link:hover,
@@ -126,12 +125,7 @@ img {
     color: #404bbf;
 }
 
-.contact-info {
-    display: flex;
-    gap: 40px;
-    margin-left: auto;
-    padding: 24px 0;
-}
+
 
 
 
