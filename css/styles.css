@@ -173,7 +173,7 @@ img {
         line-height: 1.07;
         letter-spacing: 0.02em;
         max-width: 496px;
-        padding-bottom: 48px;
+        margin-bottom: 48px;
 
 }
 
@@ -330,12 +330,6 @@ width: calc((100% - 72px) / 4);
     flex-wrap: wrap;
 }
 
-.our-portfolio {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
-    border-top: none;
-    margin-bottom: 72px;
-}
 
 .name-service {
     font-weight: 500;
